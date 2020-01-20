@@ -17,6 +17,7 @@ nav {
 }
 .menu-inline li{
   display: inline-block;
+  position: relative;
 }
 .menu-inline  a {
   text-decoration: none;
@@ -50,4 +51,17 @@ nav {
 
 .dropdwon-accounts li {
   margin-left: -15px;
+}
+.dropdown-prodotti{
+  position: absolute;
+  top:60px;
+  right: -10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  width: 100px;
+  justify-content: center;
+  color: lightgrey;
 }
