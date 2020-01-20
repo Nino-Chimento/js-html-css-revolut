@@ -31,8 +31,12 @@ nav {
   float: right;
 }
 .logo {
-
+  width: 100px;
+  height: 60px;
+  background-color: #D2007E;
+  border-radius: 50px;
 }
+
 .parent-dropdown-accounts{
   position: relative;
 }
@@ -48,6 +52,7 @@ nav {
   width: 80px;
   justify-content: center;
   color: lightgrey;
+  filter: drop-shadow(30px 10px 4px #FFFFF);
 }
 
 
@@ -102,6 +107,12 @@ nav {
   width: 80px;
   justify-content: center;
   color: lightgrey;
+}
+li:hover{
+  color: black;
+}
+a:hover{
+  color: black;
 }
 .flex{
   display: flex;
