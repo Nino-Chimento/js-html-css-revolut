@@ -12,6 +12,11 @@ nav {
   vertical-align: middle;
   line-height: 100px;
 }
+img  {
+  width: 100px;
+  line-height: 80px;
+  vertical-align: middle;
+}
 .menu-inline{
   list-style: none;
 }
