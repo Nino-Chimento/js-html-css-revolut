@@ -1,0 +1,9 @@
+$(document).ready(
+  function(){
+    $(".parent").mouseenter(
+      function(){
+        alert("N")
+      }
+    )
+  }
+);
