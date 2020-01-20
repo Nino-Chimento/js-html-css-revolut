@@ -3,12 +3,14 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-size: 14px;
+  width: 100%;
 }
-.nav {
-  width: 70%;
+nav {
+  width: 80%;
   margin: auto;
   height: 100px;
   vertical-align: middle;
+  line-height: 100px;
 }
 .menu-inline{
   list-style: none;
@@ -26,4 +28,24 @@ body{
 }
 .float-right {
   float: right;
+}
+.logo {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: #D2007E;
+  border-radius: 50px;
+}
+.parent-dropdown-accounts{
+  position: relative;
+}
+.dropdwon-accounts{
+  position: absolute;
+  top:60px;
+  left:0;
+  border: 1px solid lightgrey;
+  color: lightgrey;
+
+
+
 }
