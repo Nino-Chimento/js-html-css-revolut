@@ -2,7 +2,12 @@ $(document).ready(
   function(){
     $(".parent").mouseenter(
       function(){
-        alert("N")
+        $(this).children().addClass("flex");
+      }
+    )
+    $(".parent").mouseleave(
+      function(){
+        $(this).children().removeClass("flex");
       }
     )
   }
