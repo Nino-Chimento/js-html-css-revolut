@@ -45,7 +45,8 @@ nav {
   left:0;
   border: 1px solid lightgrey;
   color: lightgrey;
+}
 
-
-
+.dropdwon-accounts li {
+  margin-left: -15px;
 }
