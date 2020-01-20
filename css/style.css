@@ -31,11 +31,7 @@ nav {
   float: right;
 }
 .logo {
-  display: inline-block;
-  width: 100px;
-  height: 50px;
-  background-color: #D2007E;
-  border-radius: 50px;
+
 }
 .parent-dropdown-accounts{
   position: relative;
@@ -43,20 +39,23 @@ nav {
 .dropdwon-accounts{
   position: absolute;
   top:60px;
-  left:0;
+  right: 0px;
+  display: none;
+  flex-direction: column;
+  line-height: 40px;
   border: 1px solid lightgrey;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  width: 80px;
+  justify-content: center;
   color: lightgrey;
 }
 
-.dropdwon-accounts li {
-  margin-left: -15px;
-}
+
 .dropdown-prodotti{
   position: absolute;
   top:60px;
   right: -50px;
-  display: flex;
+  display: none;
   flex-direction: column;
   line-height: 40px;
   border: 1px solid lightgrey;
@@ -69,7 +68,7 @@ nav {
   position: absolute;
   top:60px;
   left: -20px;
-  display: flex;
+  display: none;
   flex-direction: column;
   line-height: 40px;
   border: 1px solid lightgrey;
@@ -82,7 +81,7 @@ nav {
   position: absolute;
   top:60px;
   left: -20px;
-  display: flex;
+  display:none;
   flex-direction: column;
   line-height: 40px;
   border: 1px solid lightgrey;
@@ -95,7 +94,7 @@ nav {
   position: absolute;
   top:60px;
   left: -20px;
-  display: flex;
+  display: none;
   flex-direction: column;
   line-height: 40px;
   border: 1px solid lightgrey;
@@ -103,4 +102,7 @@ nav {
   width: 80px;
   justify-content: center;
   color: lightgrey;
+}
+.flex{
+  display: flex;
 }
