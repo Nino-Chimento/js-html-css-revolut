@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.nav {
+  width: 70%;
+  margin: auto;
+  height: 100px;
+  vertical-align: middle;
+}
+.menu-inline{
+  list-style: none;
+}
+.menu-inline li{
+  display: inline-block;
+}
+.menu-inline  a {
+  text-decoration: none;
+  color: lightgrey;
+  padding: 0 20px;
+}
+.float-left{
+  float: left;
+}
+.float-right {
+  float: right;
+}
